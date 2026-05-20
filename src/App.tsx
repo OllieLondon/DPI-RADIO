@@ -2,7 +2,11 @@ import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Models from "./components/Models";
 import Departments from "./components/Departments";
+import Features from "./components/Features";
 import Pillars from "./components/Pillars";
+import Pricing from "./components/Pricing";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -11,7 +15,11 @@ export default function App() {
       <Stats />
       <Models />
       <Departments />
+      <Features />
       <Pillars />
+      <Pricing />
+      <CTA />
+      <Footer />
     </main>
   );
 }
